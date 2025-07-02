@@ -1,0 +1,15 @@
+enable
+
+conf t
+
+vlan 10
+
+name vlan
+
+exit
+
+inteface range fa0/1
+
+switchport access vlan 10
+
+interface FastEthernet0/3
